@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:text="Login"
+        android:layout_alignStart="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/eti1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:layout_alignBottom="@+id/txt1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/eti2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:layout_above="@+id/btnbuton"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="400px"
+        android:layout_height="150px"
+        android:layout_below="@+id/txt"
+        android:layout_toEndOf="@+id/eti2" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="400px"
+        android:layout_height="150px"
+        android:layout_below="@+id/txt1"
+        android:layout_toRightOf="@+id/eti2" />
+
+    <Button
+        android:id="@+id/btnbuton"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:text="BUTTON"
+        android:layout_below="@+id/txt2"
+        android:layout_toEndOf="@+id/eti2" />
+
+
+</RelativeLayout>

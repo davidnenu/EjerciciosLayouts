@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:text="Texto 1"/>
+
+    <TextView
+        android:id="@+id/txto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txto"
+        android:textSize="50px"
+        android:text="Texto 2"/>
+
+    <TextView
+        android:id="@+id/txto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txto2"
+        android:textSize="50px"
+        android:text="Texto 3"/>
+
+    <Button
+        android:id="@+id/btnboton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txto3"
+        android:text="BOTÓN"/>
+
+
+
+</RelativeLayout>
